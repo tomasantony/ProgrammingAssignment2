@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##If the inverse is already present it will take the 
 ##value from cache and skips the computation part.
 ##If the inverse value is not present then it will 
-##compute the inverse #of the matrix specified.
+##compute the inverse of the matrix specified.
 
 
 cacheSolve <- function(x, ...) {
